@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{5e4d0829-495b-4978-becb-4003eb125a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Header Files">
+      <UniqueIdentifier>{7c91aa90-9990-4707-8cdc-8258d914dae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Resource Files">
+      <UniqueIdentifier>{85c8b0fb-3321-4231-9aaa-cdd7b4f25685}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\CastleVania\CastleVania\GameSprite.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\Global.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\GraphicsDevice.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\KeyBoard.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\Scene.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\SceneManager.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\TiledMap.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\ViewPort.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\IntroScene.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\Player.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\CastleVania\CastleVania\Game.h">
+      <Filter>Framework\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\CastleVania\CastleVania\CGame.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\GameSprite.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\GraphicsDevice.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\KeyBoard.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\SceneManager.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\TiledMap.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\ViewPort.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\IntroScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\CastleVania\CastleVania\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
