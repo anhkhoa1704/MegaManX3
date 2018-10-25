@@ -18,7 +18,8 @@ class GameSprite {
 	int					start;			//start of animation
 	int					end;			//end of animation
 	D3DXVECTOR3			pos;
-
+	float				duration;
+	float				frame_time;
 
 	void				InitRects(int img_width, int img_height);
 
@@ -37,7 +38,7 @@ public:
 	float				GetPositionX();
 	float				GetPositionY();
 	void				Draw();
-	void				Update();
+	void				Update(float dt);
 	void				SetIndex(int index);
 	void				SetScale(float x, float y);
 	void				SetStartEnd(int start, int end);

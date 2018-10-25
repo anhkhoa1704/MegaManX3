@@ -77,8 +77,9 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib</AdditionalDependencies>
@@ -121,29 +122,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\CastleVania\CastleVania\Game.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\GameSprite.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\Global.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\GraphicsDevice.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\IntroScene.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\KeyBoard.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\Player.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\Scene.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\SceneManager.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\TiledMap.h" />
-    <ClInclude Include="..\..\CastleVania\CastleVania\ViewPort.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\GameSprite.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\Global.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\GraphicsDevice.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\IntroScene.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\KeyBoard.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\Player.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\Scene.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\SceneManager.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\TiledMap.h" />
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\ViewPort.h" />
+    <ClInclude Include="Game.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\CastleVania\CastleVania\CGame.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\GameSprite.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\GraphicsDevice.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\IntroScene.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\KeyBoard.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\Main.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\Player.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\SceneManager.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\TiledMap.cpp" />
-    <ClCompile Include="..\..\CastleVania\CastleVania\ViewPort.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\GameSprite.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\GraphicsDevice.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\IntroScene.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\KeyBoard.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\Main.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\Player.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\SceneManager.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\TiledMap.cpp" />
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\ViewPort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

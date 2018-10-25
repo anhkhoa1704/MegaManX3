@@ -24,70 +24,70 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\CastleVania\CastleVania\GameSprite.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\IntroScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\GameSprite.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\Global.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\Global.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\GraphicsDevice.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\GraphicsDevice.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\KeyBoard.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\KeyBoard.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\Scene.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\Scene.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\SceneManager.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\SceneManager.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\TiledMap.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\TiledMap.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\ViewPort.h">
+    <ClInclude Include="..\..\MegaManX3\MegaManX3\ViewPort.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\IntroScene.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\Player.h">
-      <Filter>Resource Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\CastleVania\CastleVania\Game.h">
+    <ClInclude Include="Game.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\CastleVania\CastleVania\CGame.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\GameSprite.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\GraphicsDevice.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\KeyBoard.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\SceneManager.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\TiledMap.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\ViewPort.cpp">
-      <Filter>Framework\Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\IntroScene.cpp">
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\IntroScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\Main.cpp">
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\CastleVania\CastleVania\Player.cpp">
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\Player.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\GameSprite.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\GraphicsDevice.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\KeyBoard.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\SceneManager.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\TiledMap.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MegaManX3\MegaManX3\ViewPort.cpp">
+      <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework\Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

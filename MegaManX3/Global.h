@@ -4,8 +4,8 @@
 #include "ViewPort.h"
 #include "KeyBoard.h"
 
-#define SCREEN_WIDTH			600
-#define SCREEN_HEIGHT			600
+#define SCREEN_WIDTH			524
+#define SCREEN_HEIGHT			454
 #define	ANIMATE_RATE			30
 #define FPS						60
 

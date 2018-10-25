@@ -8,9 +8,10 @@ void ViewPort::CalculateViewPortPos(float x, float y)
 	viewport_x = x - SCREEN_WIDTH / 2;
 	if (viewport_x <= 0.0f)
 		viewport_x = 0.0f;
-	if (viewport_x >= 4096 - SCREEN_WIDTH)
-		viewport_x = 4096 - SCREEN_WIDTH;
-	viewport_y = SCREEN_HEIGHT;
+	if (viewport_x >= 4896 - SCREEN_WIDTH)
+		viewport_x = 4896 - SCREEN_WIDTH;
+	viewport_y = y + SCREEN_HEIGHT / 2;
+	//viewport_y = SCREEN_HEIGHT;
 	/*if (y >= 460)
 		viewport_y = SCREEN_HEIGHT + 90;
 	else if (y >= 240 && y < 460)

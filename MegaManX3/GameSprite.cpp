@@ -10,6 +10,8 @@ GameSprite::GameSprite()
 	pos = { 0, 0, 0 };
 	scale = { 1, 1 };
 	angle = 0;
+	duration = 0;
+	frame_time = 1.0f / 60;
 }
 
 GameSprite::~GameSprite()
@@ -70,6 +72,8 @@ void GameSprite::Init(std::string image_path, D3DCOLOR color, int total_frame, i
 	this->rows = rows;
 	this->cols = cols;
 	this->color = color;
+	this->end = total_frame;
+	this->start = 0;
 
 	InitRects(img_info.Width, img_info.Height);
 }
@@ -120,7 +124,6 @@ void GameSprite::Draw()
 	sprite_handle->Begin(D3DXSPRITE_ALPHABLEND);
 	sprite_handle->Draw(tex, &rect[index], &center, &p, 0xffffffff);
 	sprite_handle->End();
-
 }
 
 void GameSprite::InitRects(int img_width, int img_height)
@@ -139,15 +142,15 @@ void GameSprite::InitRects(int img_width, int img_height)
 	}
 }
 
-void GameSprite::Update()
+void GameSprite::Update(float dt)
 {
-	if (index < end)
+	duration += dt;
+	if (duration > frame_time)
 	{
-		index++;
-	}
-	else
-	{
-		index = start;
+		index += 1;
+		if (index > end)
+			index = start;
+		duration = 0;
 	}
 }
 

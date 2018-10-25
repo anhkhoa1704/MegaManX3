@@ -1,29 +1,10 @@
-﻿  CGame.cpp
+﻿  Player.cpp
   c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  GameSprite.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  GraphicsDevice.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  IntroScene.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  KeyBoard.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Main.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  Player.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\anhkhoa\source\repos\castlevania\castlevania\player.cpp(16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\anhkhoa\source\repos\castlevania\castlevania\player.cpp(32): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\anhkhoa\source\repos\castlevania\castlevania\player.cpp(34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\anhkhoa\source\repos\castlevania\castlevania\player.cpp(83): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\anhkhoa\source\repos\castlevania\castlevania\player.cpp(84): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\anhkhoa\source\repos\castlevania\castlevania\player.cpp(85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  SceneManager.cpp
-  TiledMap.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  ViewPort.cpp
-  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\anhkhoa\source\repos\castlevania\castlevania\viewport.cpp(33): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
-c:\users\anhkhoa\source\repos\castlevania\castlevania\viewport.cpp(34): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
-  Generating Code...
-  MegaManX3.vcxproj -> C:\Users\anhkhoa\source\repos\MegaManX3\Debug\MegaManX3.exe
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(60): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(61): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  MegaManX3.vcxproj -> C:\Users\DELL\Desktop\Game-Kha\MegaManX3\Debug\MegaManX3.exe
