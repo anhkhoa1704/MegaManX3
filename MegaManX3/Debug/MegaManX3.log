@@ -1,10 +1,9 @@
-﻿  Player.cpp
+﻿  GameSprite.cpp
   c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(38): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(60): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(61): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-c:\users\dell\desktop\game-kha\megamanx3\megamanx3\player.cpp(62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TiledMap.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\dell\desktop\game-kha\megamanx3\megamanx3\tiledmap.cpp(15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+  GameObject.cpp
+  Generating Code...
   MegaManX3.vcxproj -> C:\Users\DELL\Desktop\Game-Kha\MegaManX3\Debug\MegaManX3.exe

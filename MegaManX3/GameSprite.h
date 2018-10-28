@@ -9,14 +9,13 @@ class GameSprite {
 	D3DCOLOR			color;
 	int					angle;
 	D3DXVECTOR2			scale;
-	
+	int					index;			//current frame
+	int					start;			//start of animation
+	int					end;			//end of animation
 	RECT*				rect;			//list frame of image
 	int					total_frame;
 	int					rows;
 	int					cols;
-	int					index;			//current frame
-	int					start;			//start of animation
-	int					end;			//end of animation
 	D3DXVECTOR3			pos;
 	float				duration;
 	float				frame_time;
@@ -41,5 +40,5 @@ public:
 	void				Update(float dt);
 	void				SetIndex(int index);
 	void				SetScale(float x, float y);
-	void				SetStartEnd(int start, int end);
+	void				SetAnimation(int start, int end);
 };

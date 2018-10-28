@@ -81,12 +81,10 @@ void Game::GameRun()
 	
 	UINT frame_time = 1000 / FPS;
 	UINT delta_time = frame_time;
-	int sleep_time = 0;
 	UINT start_time = 0;
 
 	while (!done)
 	{
-		start_time = GetTickCount();
 		if (PeekMessage(&msg, 0, 0, 0, PM_REMOVE))
 		{
 			if (msg.message == WM_QUIT)
@@ -95,16 +93,14 @@ void Game::GameRun()
 			DispatchMessage(&msg);
 		}
 
-		Update(delta_time / 10.0f);
-		Draw();
-
-		delta_time = GetTickCount() - start_time;
-		sleep_time = delta_time - frame_time;
-
-		if (sleep_time > 0)
+		UINT now = GetTickCount();
+		delta_time = now - start_time;
+		
+		if (delta_time >= frame_time)
 		{
-			Sleep(sleep_time);
-			delta_time += sleep_time;
+			Update(delta_time);
+			start_time = now;
+			Draw();
 		}
 
 	}

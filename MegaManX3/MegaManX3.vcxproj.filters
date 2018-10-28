@@ -57,6 +57,9 @@
     <ClInclude Include="Game.h">
       <Filter>Framework\Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\MegaManX3\MegaManX3\IntroScene.cpp">
@@ -88,6 +91,9 @@
     </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>Framework\Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

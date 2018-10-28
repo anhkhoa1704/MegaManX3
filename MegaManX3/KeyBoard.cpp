@@ -102,7 +102,10 @@ int KeyBoard::IsKeyDown(int KeyCode)
 	return (key_states[KeyCode] & 0x80) > 0;
 }
 
-
+int KeyBoard::IsKeyUp(int KeyCode)
+{
+	return (key_states[KeyCode] & 0x80) < 0;
+}
 
 KeyBoard::~KeyBoard()
 {

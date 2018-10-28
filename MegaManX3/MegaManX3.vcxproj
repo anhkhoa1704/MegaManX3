@@ -133,6 +133,7 @@
     <ClInclude Include="..\..\MegaManX3\MegaManX3\TiledMap.h" />
     <ClInclude Include="..\..\MegaManX3\MegaManX3\ViewPort.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="GameObject.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
@@ -145,6 +146,7 @@
     <ClCompile Include="..\..\MegaManX3\MegaManX3\SceneManager.cpp" />
     <ClCompile Include="..\..\MegaManX3\MegaManX3\TiledMap.cpp" />
     <ClCompile Include="..\..\MegaManX3\MegaManX3\ViewPort.cpp" />
+    <ClCompile Include="GameObject.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -11,7 +11,7 @@ GameSprite::GameSprite()
 	scale = { 1, 1 };
 	angle = 0;
 	duration = 0;
-	frame_time = 1.0f / 60;
+	frame_time = 1000 / 60;
 }
 
 GameSprite::~GameSprite()
@@ -72,8 +72,8 @@ void GameSprite::Init(std::string image_path, D3DCOLOR color, int total_frame, i
 	this->rows = rows;
 	this->cols = cols;
 	this->color = color;
-	this->end = total_frame;
 	this->start = 0;
+	this->end = total_frame - 1;
 
 	InitRects(img_info.Width, img_info.Height);
 }
@@ -165,8 +165,9 @@ void GameSprite::SetScale(float x, float y)
 	scale.y = y;
 }
 
-void GameSprite::SetStartEnd(int start, int end)
+void GameSprite::SetAnimation(int start, int end)
 {
 	this->start = start;
 	this->end = end;
+	/*this->index = start;*/
 }

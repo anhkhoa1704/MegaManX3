@@ -9,6 +9,11 @@ enum Player_State {
 	DASH
 };
 
+enum Direction {
+	LEFT = -1,
+	RIGHT = 1,
+};
+
 class Player
 {
 	GameSprite			sprite;
@@ -21,6 +26,8 @@ class Player
 	float				vy;
 	DWORD				last_time;
 	Player_State		state;
+	Direction			direction;
+	int					stage_run;
 
 public:
 

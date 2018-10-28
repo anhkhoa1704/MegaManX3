@@ -20,6 +20,7 @@ public:
 	virtual void OnKeyUp(int KeyCode);
 	virtual void OnKeyDown(int KeyCode);
 	int IsKeyDown(int KeyCode);
+	int IsKeyUp(int KeyCode);
 
 	~KeyBoard();
 };
